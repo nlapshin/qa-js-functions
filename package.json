@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "js-function",
+  "version": "1.0.0",
+  "main": "1-javascript-types.js",
+  "scripts": {
+    "test": "node ./3-assert.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
