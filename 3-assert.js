@@ -27,16 +27,16 @@
 
 // Создайте файл package.json если ошибка Cannot use import statement outside a module (
 
-import { strict as assert } from 'assert'; 
-
-assert.equal(sum(2, 2), 4) 
-assert.equal(sum(2, 3), 4)
+import { strict as assert } from 'assert'; // assert - стандартная библиотека nodejs
+// вызываю фукнцию и проверяю специальным assert.equal
+assert.equal(sum(2, 2), 4) // Это выполнитеся
+assert.equal(sum(2, 3), 4) // Это выдаст ошибку
 
 console.log('it is work!')
 
 function sum(a, b) { 
   return a + b 
-} 
+}
 
 // npm init - создаем наш nodejs
 // мы хотим подключать зависимости в наш проект

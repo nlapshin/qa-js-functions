@@ -1,3 +1,90 @@
+// Что такое функция?
+// Это инструкция которая позволяет объеденить какой-то код.
+
+// Как переиспользовать.
+let age = 25
+let agea = 18
+let ageb = 9
+
+// if (checkAge(25)) {
+//   console.log('Доступ разрешен') // Это функция которая принимает строку
+// }
+
+// console.log(checkAge(age))
+// console.log(checkAge(age1))
+// console.log(checkAge(age2))
+
+// function - это ключеное слово.
+// checkAge - название функции.
+// у функции могут быть входные параметры(аргументы) и результат выполнение
+// age - это аргумент функции
+// Выходной параметр через слово return
+// Function declaration
+function checkAge(uniqAge) {
+  // Тело фукнции
+  if (uniqAge >= 18) {
+    return true
+  } else {
+    return false
+  }
+}
+
+// Function expression
+const sum = function(a, b) {
+  return a + b;
+}
+
+// console.log('sum', sum(2, 4));
+
+// Arrow function =>
+const sumArrow = (a, b) => {
+  return a + b;
+}
+
+// console.log('sumArrow', sum(5, 5));
+
+
+
+// switch
+
+let a = 5;
+
+// switch (условия)
+switch (a) {
+  case 4:
+    // Выполниет этот код
+    console.log('Правильно!');
+    break;
+
+  case 3: // (*) группируем оба case
+  case 5: // (*) группируем оба case
+    console.log('Неправильно!');
+    console.log("Может вам посетить урок математики?");
+    break;
+
+  default:
+    console.log('Результат выглядит странновато. Честно.');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*const num1 = 2
 const num2 = 3
 
